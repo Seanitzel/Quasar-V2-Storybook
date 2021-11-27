@@ -1,3 +1,10 @@
+// Without this class it works...
+.test {
+  @media only screen and (min-width: $breakpoint-md) {
+    background-color: yellow;
+  }
+}
+
 // layout
 .q-footer {
   z-index: 3000;
